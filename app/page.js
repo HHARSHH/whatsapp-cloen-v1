@@ -7,11 +7,11 @@ export default function Home() {
     <div style={{ padding: '50px', textAlign: 'center' }}>
       {/* Hero Section */}
       <div style={{ backgroundImage: 'url(https://source.unsplash.com/random/1600x900?technology)', backgroundSize: 'cover', padding: '100px 0', color: '#fff' }}>
-        <Title level={1} style={{ color: '#fff' }}>Welcome to the WhatsApp Clone</Title>
+        <Title level={1} style={{ color: '#fff' }}>Welcome to WhatsApp</Title>
         <Paragraph style={{ color: '#fff' }}>
-          Experience the best messaging platform with our WhatsApp Clone. Connect with your friends and family seamlessly.
+          Simple. Secure. Reliable messaging. With WhatsApp, you&apos;ll get fast, simple, secure messaging and calling for free*, available on phones all over the world.
         </Paragraph>
-        <Button type="primary" style={{ marginBottom: '20px' }}>Get Started</Button>
+        <Button type="primary" style={{ marginBottom: '20px' }}>Download Now</Button>
       </div>
 
       {/* Features Section */}

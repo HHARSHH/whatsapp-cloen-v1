@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <div style={{ padding: '50px', textAlign: 'center' }}>
       {/* Hero Section */}
-      <div style={{ backgroundImage: 'url(https://source.unsplash.com/random/1600x900?technology)', backgroundSize: 'cover', padding: '100px 0', color: '#fff' }}>
-        <Title level={1} style={{ color: '#fff' }}>Welcome to WhatsApp</Title>
-        <Paragraph style={{ color: '#fff' }}>
+      <div style={{ backgroundImage: 'url(https://source.unsplash.com/1600x900/?whatsapp)', backgroundSize: 'cover', padding: '100px 0', color: '#fff' }}>
+        <Title level={1} style={{ color: '#fff', fontSize: '48px', fontWeight: 'bold' }}>Welcome to WhatsApp</Title>
+        <Paragraph style={{ color: '#fff', fontSize: '18px', maxWidth: '600px', margin: '0 auto' }}>
           Simple. Secure. Reliable messaging. With WhatsApp, you&apos;ll get fast, simple, secure messaging and calling for free*, available on phones all over the world.
         </Paragraph>
-        <Button type="primary" style={{ marginBottom: '20px' }}>Download Now</Button>
+        <Button type="primary" style={{ marginTop: '20px', padding: '10px 20px', fontSize: '16px' }}>Download Now</Button>
       </div>
 
       {/* Features Section */}
@@ -19,7 +19,7 @@ export default function Home() {
         <Row gutter={[16, 16]}>
           <Col span={8}>
             <Image
-              src="https://source.unsplash.com/random/300x200?chat"
+              src="https://source.unsplash.com/300x200/?chat"
               alt="Chat Image"
               style={{ width: '100%' }}
             />
@@ -28,7 +28,7 @@ export default function Home() {
           </Col>
           <Col span={8}>
             <Image
-              src="https://source.unsplash.com/random/300x200?video"
+              src="https://source.unsplash.com/300x200/?video"
               alt="Video Call Image"
               style={{ width: '100%' }}
             />
@@ -37,7 +37,7 @@ export default function Home() {
           </Col>
           <Col span={8}>
             <Image
-              src="https://source.unsplash.com/random/300x200?security"
+              src="https://source.unsplash.com/300x200/?security"
               alt="Security Image"
               style={{ width: '100%' }}
             />

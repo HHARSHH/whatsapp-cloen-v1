@@ -1,7 +1,7 @@
 import React from 'react';
-import { Menu } from 'antd';
 import { HomeOutlined, InfoCircleOutlined, ContactsOutlined } from '@ant-design/icons';
 import Link from 'next/link';
+import { Menu } from 'antd';
 
 const Navigation = () => {
   return (

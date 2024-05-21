@@ -1,7 +1,9 @@
+'use client';
+
 import React from 'react';
 import { HomeOutlined, InfoCircleOutlined, ContactsOutlined } from '@ant-design/icons';
 import Link from 'next/link';
-import { Menu } from 'antd';
+import Menu from 'antd/es/menu'; // Importing Menu directly from the path
 
 const Navigation = () => {
   return (

@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  transpilePackages: ['antd'],
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.alias['@'] = path.resolve(__dirname);
